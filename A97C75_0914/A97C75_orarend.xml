@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<orarend>
+    <ora id="174" típus="elmélet">
+        <targy>Adatkezelés XML-ben</targy>
+        <idopont>
+            <nap>Kedd</nap>
+            <tol>12</tol>
+            <ig>14</ig>
+        </idopont>
+        <helyszin>XXXII.előadó A1 Magasfsz.</helyszin>
+        <oktato>Dr.Bednarik László</oktato>
+        <szak>Programtervező informatikus</szak>
+    </ora>
+
+    <ora id="512" típus="elmélet">
+        <targy>Algoritmusok és vizsgálatuk</targy>
+        <idopont>
+            <nap>Kedd</nap>
+            <tol>14</tol>
+            <ig>18</ig>
+        </idopont>
+        <helyszin>X.előadó A1 II.em. 218</helyszin>
+        <oktato>Dr. Házy Attila</oktato>
+        <szak>Programtervező informatikus</szak>
+    </ora>
+
+    <ora id="547" típus="gyakorlat">
+        <targy>Adatkezelés XML-ben</targy>
+        <idopont>
+            <nap>Szerda</nap>
+            <tol>12</tol>
+            <ig>14</ig>
+        </idopont>
+        <helyszin>In/101 In I.e. 101</helyszin>
+        <oktato>Dr.Bednarik László</oktato>
+        <szak>Programtervező informatikus</szak>
+    </ora>
+
+    <ora id="512" típus="elmélet">
+        <targy>Vállalati információs rendszerek fejlesztése</targy>
+        <idopont>
+            <nap>Szerda</nap>
+            <tol>16</tol>
+            <ig>20</ig>
+        </idopont>
+        <helyszin>In/103 In I.em. 103</helyszin>
+        <oktato>Dr. Sasvári Péter</oktato>
+        <szak>Programtervező informatikus</szak>
+    </ora>
+</orarend>
