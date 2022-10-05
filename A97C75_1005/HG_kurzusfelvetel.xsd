@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<schema xmlns="http://www.w3.org/2001/XMLSchema" targetNamespace="http://www.example.org/HG_kurzusfelvetel" xmlns:tns="http://www.example.org/HG_kurzusfelvetel" elementFormDefault="qualified">
+	<xs:simpleType name="tanevTipus">
+		<xs:restriction base="xs:string">
+			<xs:pattern value="\d{4}/\d{4}I(I)?" />
+		</xs:restriction>
+	</xs:simpleType>
+	
+	<xs:simpleType name="egyetemTipus">
+		<xs:restriction base="xs:string">
+			<xs:pattern value="ME" />
+		</xs:restriction>
+	</xs:simpleType>
+	
+	<xs:simpleType name="idTipus">
+		<xs:restriction base="xs:string">
+			<xs:minLength value = "5" />
+			<xs:maxLength value = "10" />
+		</xs:restriction>
+	</xs:simpleType>
+	
+	<xs:simpleType name="igenNemTipus">
+		<xs:restriction base="xs:string">
+			
+		</xs:restriction>
+	</xs:simpleType>
+</schema>
