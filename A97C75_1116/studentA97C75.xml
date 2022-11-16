@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type = "text/xsl" href = "studentA97C75.xsl"?>
+
+<class>
+
+	<student id="01">
+		<keresztnev>Gábor</keresztnev>
+		<vezeteknev>Hajdu</vezeteknev>
+		<becenev>-</becenev>
+		<kor>22</kor>
+		<osztondij>0</osztondij>
+	</student>
+	
+	<student id="02">
+		<keresztnev>Dóra</keresztnev>
+		<vezeteknev>Kék</vezeteknev>
+		<becenev>dorka</becenev>
+		<kor>20</kor>
+		<osztondij>0</osztondij>
+	</student>
+	
+	<student id="03">
+		<keresztnev>Andrea</keresztnev>
+		<vezeteknev>Zsoldos</vezeteknev>
+		<becenev>andi</becenev>
+		<kor>18</kor>
+		<osztondij>0</osztondij>
+	</student>
+	
+</class>
