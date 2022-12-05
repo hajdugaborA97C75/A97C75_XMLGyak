@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><gyogyszertar_adatok xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:noNamespaceSchemaLocation="XMLSchemaA97C75.xsd">
+    
+    <raktarak>
+        <raktar RID="1">
+            <cim>
+            	<iranyitoszam>3526</iranyitoszam>
+            	<varos>Miskolc</varos>
+            	<utca>Szentpéteri kapu</utca>
+            	<hazszam>47</hazszam>
+            </cim>
+            <nev>The Storage</nev>
+        </raktar>
+		<raktar RID="3">
+            <cim>
+            	<iranyitoszam>3529</iranyitoszam>
+            	<varos>Miskolc</varos>
+            	<utca>Szentgyörgy út</utca>
+            	<hazszam>10</hazszam>
+            </cim>
+           	<nev>MedStor</nev>
+        </raktar>
+    </raktarak>
+    
+    <gyogyszertarak>
+   		<gyogyszertar GysztID="12">
+	        <cim>
+	            <iranyitoszam>3526</iranyitoszam>
+	            <varos>Miskolc</varos>
+	            <utca>Szentpéteri kapu</utca>
+	            <hazszam>72-76</hazszam>
+	        </cim>
+	        <nev>Szent Péter gyógyszertár</nev>
+     	</gyogyszertar>
+     	<gyogyszertar GysztID="4">
+	        <cim>
+	            <iranyitoszam>3529</iranyitoszam>
+	            <varos>Miskolc</varos>
+	            <utca>Szentgyörgy út</utca>
+	            <hazszam>25</hazszam>
+	        </cim>
+	        <nev>Benu gyógyszertár</nev>
+     	</gyogyszertar>
+    </gyogyszertarak>
+    
+    <gyogyszertarvezetok>
+        <gyogyszertarvezeto GyvID="KP13">
+         <cim>
+             <iranyitoszam>3526</iranyitoszam>
+             <varos>Miskolc</varos>
+             <utca>Katowice</utca>
+             <hazszam>14</hazszam>
+         </cim>
+         <nev>Dr. Kalapos Péter</nev>
+      </gyogyszertarvezeto>
+      <gyogyszertarvezeto GyvID="FZ2">
+         <cim>
+             <iranyitoszam>3529</iranyitoszam>
+             <varos>Miskolc</varos>
+             <utca>Áfonyás utca</utca>
+             <hazszam>25</hazszam>
+         </cim>
+     	 <nev>Dr. Fekete Zoltán</nev>
+      </gyogyszertarvezeto>
+    </gyogyszertarvezetok>
+
+    <dolgozok>
+        <dolgozo DID="MF12"><cim>
+             <iranyitoszam>3526</iranyitoszam>
+             <varos>Miskolc</varos>
+             <utca>Gömöri tér</utca>
+             <hazszam>8</hazszam>
+         </cim>
+         <nev>Molnár Ferenc</nev>
+      </dolgozo>
+      <dolgozo DID="SM2">
+         <cim>
+             <iranyitoszam>3525</iranyitoszam>
+             <varos>Miskolc</varos>
+             <utca>Galagonyás sor</utca>
+             <hazszam>1</hazszam>
+         </cim>
+         <nev>Soós Márton</nev>
+      </dolgozo>
+    </dolgozok>
+
+	<gyogyszerek>
+		<gyogyszer GyszID="6318">
+			<receptre_kaphato>Nem</receptre_kaphato>
+			<hatoanyag>metamizol-nátrium</hatoanyag>
+			<tipus>fájdalom- és lázcsillapító, gyulladáscsökkentő</tipus>
+			<nev>Algopyrin</nev>
+		</gyogyszer>
+		<gyogyszer GyszID="8113">
+			<receptre_kaphato>Nem</receptre_kaphato>
+			<hatoanyag>magnézium</hatoanyag>
+			<tipus>Vitamin</tipus>
+			<nev>Magnerot</nev>
+		</gyogyszer>
+	</gyogyszerek>
+	
+	<vasarlok>
+		<vasarlo VID="983323">
+			<nev>Hajdu Gábor</nev>
+			<haziorvos>Dr. Lóránt Tibor</haziorvos>
+			<gyogyszererzekenyseg>nincs</gyogyszererzekenyseg>
+		</vasarlo>
+		<vasarlo VID="64531">
+			<nev>Horvát Róbert</nev>
+			<haziorvos>Dr. Kovács Péter</haziorvos>
+			<gyogyszererzekenyseg>metamizol-nátrium</gyogyszererzekenyseg>
+		</vasarlo>
+	</vasarlok>
+    
+	<gyogyszertar-raktar>
+    	<szallitas GysztID="12" RID="1">
+    		<datum>2020-12-03</datum>
+    		<fuvarozo_ceg>DHL</fuvarozo_ceg>
+    		<osszeg>456000</osszeg>
+    	</szallitas>
+    	<szallitas GysztID="4" RID="10">
+    		<datum>2020-11-10</datum>
+    		<fuvarozo_ceg>GLS</fuvarozo_ceg>
+    		<osszeg>123000</osszeg>
+    	</szallitas>
+    </gyogyszertar-raktar>
+    
+    <gyogyszertar-vasarlo>
+    	<vasarlas GysztID="12" VID="983323">
+    		<osszeg>5300</osszeg>
+    		<fizetesi_mod>Bankkártya</fizetesi_mod>
+    	</vasarlas>
+    	<vasarlas GysztID="4" VID="64531">
+    		<osszeg>12340</osszeg>
+    		<fizetesi_mod>Készpénz</fizetesi_mod>
+    	</vasarlas>
+    </gyogyszertar-vasarlo>
+    
+    <vasarlo-gyogyszer>
+    	<betegseg GyszID="8113" VID="64531">
+    		<panasz>nincs</panasz>
+    	</betegseg>
+    	<betegseg GyszID="6318" VID="983323">
+    		<panasz>fejfájás</panasz>
+    	</betegseg>
+    </vasarlo-gyogyszer>
+    
+    <gyogyszertar-gyogyszertarvezeto>
+    	<vezetes GysztID="12" GyvID="KP13"/>
+    	<vezetes GysztID="4" GyvID="FZ2"/>
+    </gyogyszertar-gyogyszertarvezeto>
+    
+    <dolgozo-gyogyszertarvezeto>
+    	<alkalmazott DID="MF12" GyvID="KP13"/>
+    	<alkalmazott DID="SM2" GyvID="FZ2"/>
+    </dolgozo-gyogyszertarvezeto>
+    
+</gyogyszertar_adatok>
